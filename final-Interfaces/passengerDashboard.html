@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passenger Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #4CAF50;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 10px;
+        }
+
+        .dashboard-container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .dashboard-container::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .passenger-info {
+            float: left;
+            width: 60%;
+        }
+
+        .passenger-info h2 {
+            margin-bottom: 10px;
+        }
+
+        .passenger-info p {
+            text-align: justify;
+        }
+
+        .ride-options {
+            float: right;
+            width: 30%;
+        }
+
+        .ride-options button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Passenger Dashboard</h1>
+    </header>
+
+    <nav>
+        <a href="#dashboard">Dashboard</a>
+        <a href="#trips">My Trips</a>
+        <a href="#payments">Payments</a>
+        <a href="#profile">Profile</a>
+        <a href="#logout">Logout</a>
+    </nav>
+
+    <div class="dashboard-container">
+        <div class="passenger-info">
+            <h2>Welcome, [Passenger Name]</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac elit a nisi fermentum bibendum. 
+                Nullam hendrerit purus vel risus euismod, ut congue enim cursus.
+            </p>
+        </div>
+
+        <div class="ride-options">
+            <button>Book a Ride</button>
+            <button>View Trips</button>
+            <button>Payment History</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Passenger Dashboard. All rights reserved.</p>
+    </footer>
+</body>
+</html>

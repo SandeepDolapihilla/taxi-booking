@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/023b632fc8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="newhome.css">
+    <title>Taxi Booking</title>
+</head>
+<body>
+    <header>
+        <h1>Taxi Booking</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#booking">Book a Taxi</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact Us</a>
+        <a href="#payment">Payment</a>
+    </nav>
+
+    <div class="container">
+        <div class="company-info">
+            <h2>Welcome to Taxi Booking</h2>
+            <p>
+                Taxi Booking provides reliable and efficient transportation services. 
+                Our experienced drivers and modern fleet ensure a comfortable journey for our passengers. 
+                Whether you're heading to the airport, a business meeting, or a night out, we've got you covered.
+            </p>
+        </div>
+
+        <div id="booking">
+            <h2>Book a Taxi</h2>
+            <form action="#" method="post">
+                <label for="pickup">Pickup Location:</label>
+                <input type="text" id="pickup" name="pickup" placeholder="Enter pickup location" required>
+
+                <label for="destination">Destination:</label>
+                <input type="text" id="destination" name="destination" placeholder="Enter destination" required>
+
+                <label for="vehicleType">Select Vehicle Type:</label>
+                <select id="vehicleType" name="vehicleType">
+                    <option value="sedan">Sedan</option>
+                    <option value="suv">SUV</option>
+                    <option value="van">Van</option>
+                    <option value="motorcycle">Motorcycle</option>
+                </select>
+
+                <button type="submit">Book Now</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="company-info">
+            <div class="additional-section">
+                <h2>Discover Our Fleet</h2>
+                <p>
+                    Explore our diverse fleet of taxis, including sedans, SUVs, vans, and motorcycles. 
+                    We strive to provide a range of options to suit your travel needs.
+                </p>
+            </div>
+        </div>
+        <img class="taxi-image" src="images/bmw1.png" alt="Taxi Image"> <!-- Replace 'taxi-image.jpg' with your image URL -->
+        
+    </div>
+
+    <div class="container">
+        <div class="our-service-section">
+            <h2>Our Taxi Service</h2>
+        
+            <div class="our-service-item">
+                <i class="fa-solid fa-user"></i>
+                <h3>Reliable Transportation</h3>
+                <p>We ensure timely and reliable transportation services for all our passengers.</p>
+            </div>
+        
+            <div class="our-service-item">
+                <i class="fa-solid fa-person-circle-check"></i>
+                <h3>Professional Drivers</h3>
+                <p>Our drivers are experienced, professional, and committed to providing a safe journey.</p>
+            </div>
+        
+            <div class="our-service-item">
+                <i class="fa-solid fa-truck-arrow-right"></i>
+                <h3>24/7 Availability</h3>
+                <p>Book a taxi anytime, day or night. Our services are available 24/7 for your convenience.</p>
+            </div>
+        
+            <div class="our-service-item">
+                <i class="fa-solid fa-plane-circle-check"></i>
+                <h3>Comfortable Travel</h3>
+                <p>Experience comfort in our modern and well-maintained fleet of vehicles.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <footer>
+        <p>&copy; 2023 Taxi Booking. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+

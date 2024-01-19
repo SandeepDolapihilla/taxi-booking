@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Driver Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #4CAF50;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 10px;
+        }
+
+        .dashboard-container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .dashboard-container::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .driver-info {
+            float: left;
+            width: 60%;
+        }
+
+        .driver-info h2 {
+            margin-bottom: 10px;
+        }
+
+        .driver-info p {
+            text-align: justify;
+        }
+
+        .driver-actions {
+            float: right;
+            width: 30%;
+        }
+
+        .driver-actions button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Driver Dashboard</h1>
+    </header>
+
+    <nav>
+        <a href="#dashboard">Dashboard</a>
+        <a href="#trips">Trips</a>
+        <a href="#earnings">Earnings</a>
+        <a href="#profile">Profile</a>
+        <a href="#logout">Logout</a>
+    </nav>
+
+    <div class="dashboard-container">
+        <div class="driver-info">
+            <h2>Welcome, [Driver Name]</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac elit a nisi fermentum bibendum. 
+                Nullam hendrerit purus vel risus euismod, ut congue enim cursus.
+            </p>
+        </div>
+
+        <div class="driver-actions">
+            <button>Start Trip</button>
+            <button>End Trip</button>
+            <button>View Earnings</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Driver Dashboard. All rights reserved.</p>
+    </footer>
+</body>
+</html>

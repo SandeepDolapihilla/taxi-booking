@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operator Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #4CAF50;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 10px;
+        }
+
+        .operator-container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .operator-container::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .operator-info {
+            float: left;
+            width: 60%;
+        }
+
+        .operator-info h2 {
+            margin-bottom: 10px;
+        }
+
+        .operator-info p {
+            text-align: justify;
+        }
+
+        .tasks {
+            float: right;
+            width: 30%;
+        }
+
+        .tasks button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Operator Page</h1>
+    </header>
+
+    <nav>
+        <a href="#dashboard">Dashboard</a>
+        <a href="#manage-drivers">Manage Drivers</a>
+        <a href="#manage-vehicles">Manage Vehicles</a>
+        <a href="#reports">Reports</a>
+        <a href="#logout">Logout</a>
+    </nav>
+
+    <div class="operator-container">
+        <div class="operator-info">
+            <h2>Welcome, [Operator Name]</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac elit a nisi fermentum bibendum. 
+                Nullam hendrerit purus vel risus euismod, ut congue enim cursus.
+            </p>
+        </div>
+
+        <div class="tasks">
+            <button>Manage Drivers</button>
+            <button>Manage Vehicles</button>
+            <button>View Reports</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Operator Page. All rights reserved.</p>
+    </footer>
+</body>
+</html>
